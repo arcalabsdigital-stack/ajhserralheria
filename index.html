@@ -487,7 +487,8 @@
         }
 
         .info-block i {
-            color: var(--primary);
+            color: #c1c1c1;
+            /* Cor dos ícones alterada */
             margin-right: 10px;
             font-size: 1.2rem;
         }
@@ -500,7 +501,7 @@
         }
 
         .info-block a:hover {
-            color: var(--primary);
+            color: var(--secondary);
         }
 
         .map-container {
@@ -707,12 +708,12 @@
                 width: 100%;
                 padding: 1rem;
                 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                flex-direction: column;
+                gap: 1rem;
             }
 
             ul.menu.show {
                 display: flex;
-                flex-direction: column;
-                gap: 1rem;
             }
 
             .hamburger {
@@ -749,7 +750,7 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
             <a href="https://wa.me/5547999016187?text=Olá, gostaria de um orçamento." class="cta-header" rel="noopener noreferrer">Orçamento via WhatsApp</a>
-            <div class="hamburger" id="hamburger" role="button" aria-label="Abrir menu"><span></span><span></span><span></span></div>
+            <div class="hamburger" id="hamburger" role="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></div>
         </nav>
     </header>
 
@@ -976,16 +977,20 @@
                 <div class="contact-info">
                     <h3>Fale Conosco</h3>
                     <div class="info-block">
-                        <p><i class="fa-solid fa-phone"></i> <a href="tel:+5547999016187">(47) 99901-6187</a></p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+5547999016187">(47) 99901-6187</a>
                     </div>
                     <div class="info-block">
-                        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5547999016187?text=Olá, gostaria de um orçamento." target="_blank" rel="noopener noreferrer">WhatsApp Direto</a></p>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href="https://wa.me/5547999016187?text=Olá, gostaria de um orçamento." target="_blank" rel="noopener noreferrer">WhatsApp Direto</a>
                     </div>
                     <div class="info-block">
-                        <p><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/serralheriaajh/" target="_blank" rel="noopener noreferrer">@serralheriaajh</a></p>
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/serralheriaajh/" target="_blank" rel="noopener noreferrer">@serralheriaajh</a>
                     </div>
                     <div class="info-block">
-                        <p><i class="fa-solid fa-location-dot"></i> Rua Urânio, 290 - Joinville/SC</p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Rua Urânio, 290 - Joinville/SC</p>
                     </div>
                     <div class="map-container">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.963336338232!2d-48.8488!3d-26.3044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb1a5a89e1e9b%3A0x8a042e5d4e1c8433!2sR.%20Ur%C3%A2nio%2C%20290%20-%20Jardim%20Paraiso%2C%20Joinville%20-%20SC%2C%2089233-520!5e0!3m2!1spt-BR!2sbr!4v1654021587432!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1043,16 +1048,35 @@
         const emailJsServiceId = 'YOUR_SERVICE_ID';
         const emailJsTemplateId = 'YOUR_TEMPLATE_ID';
 
-        // O restante do JavaScript permanece o mesmo para funcionalidade do menu, scroll, etc.
+        // --- Lógica do Menu Hambúrguer ---
         const hamburger = document.getElementById('hamburger');
         const menu = document.getElementById('menu');
+
+        const closeMenu = () => {
+            menu.classList.remove('show');
+            hamburger.setAttribute('aria-expanded', 'false');
+        };
+
         hamburger.addEventListener('click', (e) => {
             e.stopPropagation();
             menu.classList.toggle('show');
-            hamburger.setAttribute('aria-expanded', menu.classList.contains('show') ? 'true' : 'false');
+            hamburger.setAttribute('aria-expanded', menu.classList.contains('show'));
         });
 
-        // Script para o filtro do portfólio
+        // Fecha o menu ao clicar em um link dele
+        document.querySelectorAll('#menu a').forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        // Fecha o menu ao clicar fora dele
+        document.addEventListener('click', (e) => {
+            if (menu.classList.contains('show') && !menu.contains(e.target) && !hamburger.contains(e.target)) {
+                closeMenu();
+            }
+        });
+
+
+        // --- Lógica do Filtro do Portfólio ---
         const filterButtons = document.querySelectorAll('.filter-btn');
         const portfolioItems = document.querySelectorAll('.portfolio-item');
 
@@ -1064,16 +1088,16 @@
                 const filter = button.getAttribute('data-filter');
 
                 portfolioItems.forEach(item => {
-                    item.style.display = 'none'; // Oculta todos primeiro
+                    item.style.display = 'none';
                     if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                        item.style.display = 'block'; // Mostra apenas os filtrados
+                        item.style.display = 'block';
                     }
                 });
             });
         });
 
 
-        // Script para o carrossel
+        // --- Lógica do Carrossel da Hero ---
         let currentSlide = 0;
         const slides = document.querySelectorAll('.headline-slide');
         const totalSlides = slides.length;
