@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="theme-color" content="#293066">
+    <!-- SEO Meta Tags Otimizadas -->
+    <title>AJH Serralheria | Portões e Estruturas Metálicas em Joinville</title>
+    <meta name="description" content="Serralheria em Joinville especializada em portões, grades, estruturas metálicas e portas de enrolar automatizadas. Resistência, acabamento e projetos sob medida. Peça seu orçamento!">
+    <meta name="keywords" content="serralheria joinville, portões de ferro, estruturas metálicas joinville, portas de enrolar, grades de proteção, serralheiro joinville, portão de alumínio">
+    <meta name="author" content="AJH Serralheria">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://www.ajhserralheria.com.br/">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AJH Serralheria | Qualidade e Resistência em Joinville">
+    <meta property="og:description" content="Especialistas em portões, grades, e estruturas metálicas com foco em resistência e acabamento.">
+    <meta property="og:image" content="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao4_kw2dnu.jpg">
+    <meta property="og:url" content="https://www.ajhserralheria.com.br/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AJH Serralheria | Qualidade e Resistência em Joinville">
+    <meta name="twitter:description" content="Especialistas em portões, grades, e estruturas metálicas com foco em resistência e acabamento.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao4_kw2dnu.jpg">
+    <!-- Preloads e Preconnects para Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" as="style" onload="this.onload=null; this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="preload" href="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao4_kw2dnu.jpg" as="image" fetchpriority="high">
+    <!-- Google Analytics (Substituir G-XXXXXXXXXX pelo seu ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <!-- Schema.org para SEO Local -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "AJH Serralheria",
+            "image": "https://res.cloudinary.com/dtgcobo29/image/upload/v1767618223/logoajhtransp_cht1j5.png",
+            "description": "Fabricação e instalação de Grades, Portões, Cercas de ferro e alumínio, e Estruturas metálicas em Joinville.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Rua Urânio, 290",
+                "addressLocality": "Joinville",
+                "addressRegion": "SC",
+                "postalCode": "89233-520",
+                "addressCountry": "BR"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "-26.3044",
+                "longitude": "-48.8488"
+            },
+            "telephone": "+5547999016187",
+            "url": "https://www.ajhserralheria.com.br",
+            "sameAs": ["https://www.instagram.com/serralheriaajh/"],
+            "openingHours": "Mo-Fr 08:00-18:00",
+            "priceRange": "$$",
+            "serviceType": "Serralheria"
+        }
+    </script>
+    <style>
+        :root {
+            --primary: #293066;
+            --primary-dark: #1e244d;
+            --secondary: #1976D2;
+            --text-dark: #333333;
+            --text-light: #F5F5F5;
+            --bg-light: #F5F5F5;
+            --bg-dark: #333333;
+            --white: #FFFFFF;
+            --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.7;
+            background: var(--bg-light);
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.4rem 2rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1001;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .logo-img {
+            max-width: 110px;
+            height: auto;
+        }
+
+        ul.menu {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        ul.menu li a {
+            color: var(--text-dark);
+            font-weight: 600;
+            position: relative;
+            text-decoration: none;
+        }
+
+        ul.menu li a:hover {
+            color: var(--primary);
+        }
+
+        ul.menu li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+
+        ul.menu li a:hover::after {
+            width: 100%;
+        }
+
+        .cta-header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .cta-header:hover {
+            background: var(--primary-dark);
+        }
+
+        .hamburger {
+            display: none;
+        }
+
+        .hamburger span {
+            background: var(--text-dark);
+        }
+
+        section {
+            padding: 5rem 2rem;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--primary);
+            margin: 1rem auto 0;
+            border-radius: 2px;
+        }
+
+        .section-light {
+            background: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        .section-dark {
+            background: var(--bg-dark);
+            color: var(--text-light);
+        }
+
+        .section-dark h2,
+        .section-dark p {
+            color: var(--text-light);
+        }
+
+        .hero {
+            height: 95vh;
+            color: var(--white);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .headline-slide h1 {
+            font-size: clamp(2.8rem, 6vw, 4.5rem);
+        }
+
+        .cta {
+            background: var(--primary);
+            border-radius: 8px;
+            color: var(--white);
+            padding: 1rem 2rem;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .cta:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+        }
+
+        .cta.secondary {
+            background: transparent;
+            border: 2px solid var(--white);
+        }
+
+        .cta.secondary:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .stat {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .stat-video {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .stat h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-light .card {
+            background: var(--white);
+            border: 1px solid #e0e0e0;
+        }
+
+        .section-dark .card {
+            background: #444;
+            border: 1px solid #555;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-light .card h3 {
+            color: var(--text-dark);
+        }
+
+        .section-dark .card h3 {
+            color: var(--text-light);
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            position: absolute;
+            top: 15px;
+            right: -40px;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 5px 40px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            transform: rotate(45deg);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-filters {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .filter-btn {
+            background: var(--white);
+            border: 1px solid #ddd;
+            padding: 0.7rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            display: block;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(41, 48, 102, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 1.5rem;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-overlay h4 {
+            color: var(--white);
+            font-size: 1.3rem;
+            transform: translateY(20px);
+            transition: transform 0.4s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay h4 {
+            transform: translateY(0);
+        }
+
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-info .info-block {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-block i {
+            color: var(--primary);
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        .info-block a,
+        .info-block p {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0;
+        }
+
+        .info-block a:hover {
+            color: var(--primary);
+        }
+
+        .map-container {
+            margin-top: 2rem;
+            border-radius: 12px;
+            overflow: hidden;
+            height: 250px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .form-input,
+        .form-textarea,
+        .form-select {
+            background: #444;
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 1rem;
+            color: var(--white);
+            width: 100%;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            border-color: var(--primary);
+            outline: none;
+        }
+
+        .form-submit button {
+            background: var(--primary);
+            width: 100%;
+            padding: 1rem;
+            border-radius: 8px;
+            border: none;
+            color: var(--white);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .form-submit button:hover {
+            background: var(--primary-dark);
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: #222;
+            color: #aaa;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .dev-credit {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        .beating-heart {
+            display: inline-block;
+            animation: beat 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+            color: #e74c3c;
+        }
+
+        @keyframes beat {
+            0% {
+                transform: scale(1);
+            }
+
+            15% {
+                transform: scale(1.3);
+            }
+
+            30% {
+                transform: scale(1);
+            }
+
+            45% {
+                transform: scale(1.3);
+            }
+
+            60% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .dev-credit a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .dev-credit a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        .hero-content-wrapper {
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            animation: fadeInUp 1s ease-out;
+            padding: 12rem 2rem 4rem;
+            text-align: center;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .headline-carousel {
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .headline-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            pointer-events: none;
+        }
+
+        .headline-slide.active {
+            opacity: 1;
+            position: relative;
+            pointer-events: auto;
+        }
+
+        .depoimento {
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .depoimento cite {
+            display: block;
+            margin-top: 1rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-style: normal;
+        }
+
+        @media (max-width: 768px) {
+            .contact-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                padding: 0.3rem 1rem;
+            }
+
+            ul.menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: white;
+                width: 100%;
+                padding: 1rem;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            ul.menu.show {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .hamburger {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                gap: 4px;
+            }
+
+            .hamburger span {
+                width: 25px;
+                height: 3px;
+                border-radius: 2px;
+                transition: 0.3s;
+            }
+
+            .cta-header {
+                display: none;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767618223/logoajhtransp_cht1j5.png" alt="Logo da AJH Serralheria" class="logo-img">
+            <ul class="menu" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="https://wa.me/5547999016187?text=Olá, gostaria de um orçamento." class="cta-header" rel="noopener noreferrer">Orçamento via WhatsApp</a>
+            <div class="hamburger" id="hamburger" role="button" aria-label="Abrir menu"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video autoplay loop muted playsinline class="hero-video">
+                <source src="https://res.cloudinary.com/dtgcobo29/video/upload/v1767700942/hero_1_obi7co.mov" type="video/mp4">
+                <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465957/cobertura_bqyz6i.jpg" alt="Serralheria trabalhando em estrutura metálica">
+            </video>
+            <div class="hero-content-wrapper">
+                <div class="headline-carousel">
+                    <div class="headline-slide active">
+                        <h1>Resistência e Acabamento que Impressionam</h1>
+                        <p>Soluções em serralheria para Joinville que unem segurança máxima e design sofisticado para valorizar seu patrimônio.</p>
+                    </div>
+                    <div class="headline-slide">
+                        <h1>Portões Automáticos Sob Medida</h1>
+                        <p>Conforto e tecnologia em portões de ferro e alumínio, projetados para durar e proteger.</p>
+                    </div>
+                    <div class="headline-slide">
+                        <h1>Estruturas Metálicas para Grandes Projetos</h1>
+                        <p>Executamos seu projeto com precisão e robustez, de mezaninos a garagens e coberturas.</p>
+                    </div>
+                </div>
+                <a href="#contato" class="cta">Solicitar Orçamento Gratuito</a>
+                <a href="#portfolio" class="cta secondary">Ver Nossos Trabalhos</a>
+            </div>
+        </section>
+
+        <section id="diferenciais" class="section-light">
+            <h2>Nossos Diferenciais</h2>
+            <div class="stats">
+                <div class="stat">
+                    <video autoplay loop muted playsinline class="stat-video">
+                        <source src="https://res.cloudinary.com/dtgcobo29/video/upload/v1767731900/materialsolda_o4djv6.mov" type="video/mp4">
+                    </video>
+                    <h3>Resistência Máxima</h3>
+                    <p>Materiais de primeira linha e solda reforçada para garantir durabilidade e segurança.</p>
+                </div>
+                <div class="stat">
+                    <video autoplay loop muted playsinline class="stat-video">
+                        <source src="https://res.cloudinary.com/dtgcobo29/video/upload/v1767731817/pintura_ns1nov.mov" type="video/mp4">
+                    </video>
+                    <h3>Acabamento de Alto Padrão</h3>
+                    <p>Pintura automotiva e atenção aos detalhes que garantem uma estética impecável.</p>
+                </div>
+                <div class="stat">
+                    <video autoplay loop muted playsinline class="stat-video">
+                        <source src="https://res.cloudinary.com/dtgcobo29/video/upload/v1767724729/projetosobmedida_1_prkuav.mp4" type="video/mp4">
+                    </video>
+                    <h3>Projetos Sob Medida</h3>
+                    <p>Criamos soluções personalizadas que se adaptam perfeitamente à sua necessidade e estilo.</p>
+                </div>
+                <div class="stat">
+                    <video autoplay loop muted playsinline class="stat-video">
+                        <source src="https://res.cloudinary.com/dtgcobo29/video/upload/v1767731949/compromisso_1_rogzdv.mp4" type="video/mp4">
+                    </video>
+                    <h3>Compromisso com o Prazo</h3>
+                    <p>Respeitamos o cronograma combinado para entregar seu projeto na data certa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section-dark">
+            <h2>Soluções Completas em Serralheria</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao3_ivoyf8.jpg" alt="Portão de Alumínio Moderno" class="card-img">
+                    <h3>Portões de Ferro e Alumínio</h3>
+                    <p>Modelos basculantes, deslizantes e pivotantes, com design moderno e robustez incomparável.</p>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767735964/portaderolo_t9pcyo.jpg" alt="Porta de Enrolar Automatizada" class="card-img">
+                    <h3>Portas de Enrolar Automatizadas</h3>
+                    <div class="badge">NOVO!</div>
+                    <p>Praticidade e segurança para seu comércio ou garagem com acionamento por controle remoto.</p>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465957/cobertura_bqyz6i.jpg" alt="Estrutura Metálica de Cobertura" class="card-img">
+                    <h3>Estruturas Metálicas</h3>
+                    <p>Desenvolvimento de mezaninos, telhados, pergolados e outras estruturas com alta precisão.</p>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767735230/garagemmetalica3_isgt7s.png" alt="Garagem Metálica" class="card-img">
+                    <h3>Garagens Metálicas</h3>
+                    <p>Projetos funcionais e resistentes para proteger seus veículos com o melhor custo-benefício.</p>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465962/grade2_zbfmk0.jpg" alt="Grade de Proteção" class="card-img">
+                    <h3>Grades e Cercas</h3>
+                    <p>Soluções de segurança que se integram à arquitetura do seu imóvel, em ferro ou alumínio.</p>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465956/escada_rpqhp2.jpg" alt="Escada com Guarda-Corpo Metálico" class="card-img">
+                    <h3>Corrimãos e Guarda-Corpos</h3>
+                    <p>Segurança para escadas e sacadas, seguindo as normas técnicas e com design elegante.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-light">
+            <h2>Nosso Portfólio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="portoes">Portões</button>
+                <button class="filter-btn" data-filter="estruturas">Estruturas</button>
+                <button class="filter-btn" data-filter="grades">Grades</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portões -->
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao4_kw2dnu.jpg" alt="Portão de Garagem Moderno">
+                    <div class="portfolio-overlay">
+                        <h4>Portão de Garagem Moderno</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao2_vxy0jx.jpg" alt="Portão Deslizante">
+                    <div class="portfolio-overlay">
+                        <h4>Portão Deslizante</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao3_ivoyf8.jpg" alt="Portão de Alumínio">
+                    <div class="portfolio-overlay">
+                        <h4>Portão de Alumínio</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/porta_vdmwtl.jpg" alt="Porta de Enrolar Automatizada">
+                    <div class="portfolio-overlay">
+                        <h4>Porta de Enrolar Automatizada</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465961/portao6_impsb8.jpg" alt="Portão Residencial">
+                    <div class="portfolio-overlay">
+                        <h4>Portão Residencial</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465960/portao1_oscl99.jpg" alt="Portão de Ferro Trabalhado">
+                    <div class="portfolio-overlay">
+                        <h4>Portão de Ferro Trabalhado</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portoes">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465957/portao5_n4s34l.jpg" alt="Portão com Detalhes em Madeira">
+                    <div class="portfolio-overlay">
+                        <h4>Portão com Detalhes em Madeira</h4>
+                    </div>
+                </div>
+
+                <!-- Grades -->
+                <div class="portfolio-item" data-category="grades">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465962/grade2_zbfmk0.jpg" alt="Grade de Proteção para Janela">
+                    <div class="portfolio-overlay">
+                        <h4>Grade de Proteção para Janela</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="grades">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465958/grade1_jfjt3s.jpg" alt="Grade Frontal Residencial">
+                    <div class="portfolio-overlay">
+                        <h4>Grade Frontal Residencial</h4>
+                    </div>
+                </div>
+
+                <!-- Estruturas -->
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465960/escada2_kbmfzq.jpg" alt="Escada Metálica com Corrimão">
+                    <div class="portfolio-overlay">
+                        <h4>Escada Metálica com Corrimão</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465959/solda2_ei3vfx.jpg" alt="Detalhe de Solda em Estrutura">
+                    <div class="portfolio-overlay">
+                        <h4>Acabamento e Solda de Precisão</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465958/escada_1_rzwji5.jpg" alt="Escada Caracol Metálica">
+                    <div class="portfolio-overlay">
+                        <h4>Escada Caracol Metálica</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465957/cobertura_bqyz6i.jpg" alt="Cobertura Metálica para Garagem">
+                    <div class="portfolio-overlay">
+                        <h4>Cobertura Metálica para Garagem</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465957/conteiner_zcoo3h.jpg" alt="Estrutura para Contêiner">
+                    <div class="portfolio-overlay">
+                        <h4>Estrutura para Contêiner</h4>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="estruturas">
+                    <img src="https://res.cloudinary.com/dtgcobo29/image/upload/v1767465956/escada_rpqhp2.jpg" alt="Escada com Guarda-Corpo">
+                    <div class="portfolio-overlay">
+                        <h4>Escada com Guarda-Corpo</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section-dark">
+            <h2>Qualidade e Confiança em Joinville</h2>
+            <p style="max-width: 800px; margin: 0 auto;">Fundada em Joinville, a AJH Serralheria nasceu da paixão por transformar metal em arte e segurança. Com mais de uma década de experiência, nos dedicamos a entregar projetos que não apenas atendem, mas superam as expectativas dos nossos clientes. Cada peça é tratada com o máximo rigor técnico, desde a escolha do material até o acabamento final, garantindo um resultado que você pode ver e confiar.</p>
+        </section>
+
+        <section id="depoimentos" class="section-light">
+            <h2>A Satisfação de Nossos Clientes</h2>
+            <div class="depoimento">
+                <p>"O trabalho da AJH foi impecável. O portão novo não só é lindo, como também muito silencioso e robusto. Profissionais de primeira!"</p>
+                <cite>– Mariana S., Bairro América</cite>
+            </div>
+        </section>
+
+        <section id="contato" class="section-dark">
+            <h2>Vamos Construir seu Projeto?</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Fale Conosco</h3>
+                    <div class="info-block">
+                        <p><i class="fa-solid fa-phone"></i> <a href="tel:+5547999016187">(47) 99901-6187</a></p>
+                    </div>
+                    <div class="info-block">
+                        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5547999016187?text=Olá, gostaria de um orçamento." target="_blank" rel="noopener noreferrer">WhatsApp Direto</a></p>
+                    </div>
+                    <div class="info-block">
+                        <p><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/serralheriaajh/" target="_blank" rel="noopener noreferrer">@serralheriaajh</a></p>
+                    </div>
+                    <div class="info-block">
+                        <p><i class="fa-solid fa-location-dot"></i> Rua Urânio, 290 - Joinville/SC</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.963336338232!2d-48.8488!3d-26.3044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb1a5a89e1e9b%3A0x8a042e5d4e1c8433!2sR.%20Ur%C3%A2nio%2C%20290%20-%20Jardim%20Paraiso%2C%20Joinville%20-%20SC%2C%2089233-520!5e0!3m2!1spt-BR!2sbr!4v1654021587432!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Solicite um Orçamento Rápido</h3>
+                    <form id="contact-form">
+                        <div class="form-field">
+                            <input type="text" id="nome" name="nome" class="form-input" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-field">
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Seu melhor e-mail" required>
+                        </div>
+                        <div class="form-field">
+                            <input type="tel" id="telefone" name="telefone" class="form-input" placeholder="Telefone / WhatsApp" required>
+                        </div>
+                        <div class="form-field">
+                            <select id="servico" name="servico" class="form-select" required>
+                                <option value="" disabled selected>Selecione o tipo de serviço...</option>
+                                <option value="Portão">Portão</option>
+                                <option value="Porta de Enrolar">Porta de Enrolar Automatizada</option>
+                                <option value="Estrutura Metálica">Estrutura Metálica</option>
+                                <option value="Grade ou Cerca">Grade ou Cerca</option>
+                                <option value="Corrimão">Corrimão</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <textarea id="mensagem" name="mensagem" class="form-textarea" placeholder="Descreva brevemente seu projeto (medidas, ideias, etc.)" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit">Enviar e Receber Orçamento</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/5547999016187?text=Olá! Vi seu site e gostaria de um orçamento." class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>&copy; 2024 AJH Serralheria. Todos os direitos reservados. Feito com precisão em Joinville.</p>
+        <div class="dev-credit">
+            Site desenvolvido com <span class="beating-heart">❤️</span> por <a href="https://www.arcalabs.com.br/" target="_blank" rel="noopener noreferrer">Arca</a>
+        </div>
+    </footer>
+
+    <script type="module">
+        // ATENÇÃO: Substitua pelas suas chaves do EmailJS.
+        const emailJsPublicKey = 'YOUR_PUBLIC_KEY';
+        const emailJsServiceId = 'YOUR_SERVICE_ID';
+        const emailJsTemplateId = 'YOUR_TEMPLATE_ID';
+
+        // O restante do JavaScript permanece o mesmo para funcionalidade do menu, scroll, etc.
+        const hamburger = document.getElementById('hamburger');
+        const menu = document.getElementById('menu');
+        hamburger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.classList.toggle('show');
+            hamburger.setAttribute('aria-expanded', menu.classList.contains('show') ? 'true' : 'false');
+        });
+
+        // Script para o filtro do portfólio
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    item.style.display = 'none'; // Oculta todos primeiro
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block'; // Mostra apenas os filtrados
+                    }
+                });
+            });
+        });
+
+
+        // Script para o carrossel
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.headline-slide');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        if (totalSlides > 0) {
+            showSlide(currentSlide);
+            setInterval(() => {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                showSlide(currentSlide);
+            }, 5000);
+        }
+    </script>
+</body>
+
+</html>
